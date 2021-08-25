@@ -1,4 +1,4 @@
-#/bin/sh
+#/bin/bash
 echo "My name is Ryan Peyton Gambrell"
 echo "Welcome to Dr. Anca Doloc-Mihu's Software Development II class."
 echo ""

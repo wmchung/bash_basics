@@ -31,12 +31,12 @@ while [ $count -ge 0 ]; do
 	if [ $count -ge 2 ]; then
 		echo "$count little monkeys jumping on the bed"
 		echo "one fell off and bumped his head"
-		echo "Moma called the Dr. and the Dr. said"
+		echo "Moma called the doctor and the doctor said"
 		echo "No more monkeys jumping on the bed!"
 	else
 		echo "$count little monkey jumping on the bed"
 		echo "He fell off and bumped his head"
-		echo "Moma called the Dr. and the Dr. said"
+		echo "Moma called the doctor and the doctor said"
 		echo "No more monkeys jumping on the bed!"
 	fi
 	

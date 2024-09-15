@@ -14,3 +14,11 @@ fi
 
 # exercise: write a script that prints whether today is
 # the weekend or not
+echo "Which day of a week is today?"
+read day
+if [[ ${day,,} == "saturday" ]] | [[ ${day,,} == "sunday" ]]
+then 
+   echo "Horayyyy!! Today is the weekend. Enjoy yourself! Be ready for the next week."
+else 
+   echo "Today is a weekday. Keep focus on your work."
+fi

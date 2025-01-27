@@ -12,3 +12,8 @@ done
 # exercise: Change the list of servers and also the 
 # operation applied to them. For instance, use ping, 
 # traceroute, or nslookup with other options.
+
+for server in $servers; do
+    tracert $server
+    echo "----------------------------"
+done

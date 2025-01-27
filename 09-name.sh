@@ -17,3 +17,4 @@ for server in $servers; do
     ping $server
     echo "----------------------------"
 done
+

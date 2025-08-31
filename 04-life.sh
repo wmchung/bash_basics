@@ -14,12 +14,12 @@ fi
 
 # exercise: write a script that prints whether it is 
 # morning or not
-echo "Is the sun rising?"
-read rising
+echo "Is the sun coming up?"
+read up
 
 
-if [ "$rising" -eq 1 ]; then
-   echo "It is morning!"
+if [ "$up" -eq 1 ]; then
+   echo "It is morning, the sun is coming up!"
 else
-   echo "It is not the morning"
+   echo "It is not the morning, the sun is going down"
 fi   
